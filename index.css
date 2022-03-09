@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 2000px;
+}
+.app{
+  width: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.center{
+  max-width: 1400px;
+  width: 100%;
+  position: relative;
+  top: 90px;
+  margin: auto;
+}
+
+.about .cards{
+display: flex;
+flex-wrap: wrap;
+}
+.about .cards .card{
+  width: 30%;
+}
+.Table {
+  border-spacing: 20px;
+  border: 1px solid #6c7ac9;
+  border-radius: 5px;
+  margin-top: 50px;
+ }
+ 
+ body {
+  margin: 0;
+  font-family: sans-serif;
+  color: #6c7ac9;
+ }
+ 
+ #root {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+ }
+ 
+ .pagination {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-top: 20px;
+  padding: 0;
+ }
+ 
+ .pagination a {
+  cursor: default;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #6c7ac9;
+  color: #6c7ac9;
+  margin-left: 10px;
+ }
+ 
+ .pagination li:not(.disabled) a:hover {
+  background-color: bisque;
+  cursor: pointer;
+ }
+ 
+ .pagination li a {
+  font-weight: bold;
+ }
+ 
+ .pagination li.active a {
+  color: #fff;
+  background: #6c7ac9;
+ }
+ 
+ .pagination li.disabled a {
+  pointer-events: none;
+  color: rgb(198, 197, 202);
+  border: 1px solid rgb(198, 197, 202);
+ }
+ .buy{
+   position: absolute;
+   width: 60%;
+   height: 300px;
+   top:30%;
+   left:20%;
+   background-color: #6c7ac9;
+   color:#fff;
+ }

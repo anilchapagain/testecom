@@ -1,0 +1,14 @@
+.form-select{
+    width : 200px;
+    margin: auto 2px;
+    min-height:38px
+}
+.filter{
+    max-height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#react-select-19-listbox{
+    color:red;
+    border: green;
+}

@@ -1,0 +1,18 @@
+.col30{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+.Home{
+    display: flex;
+    justify-content: center;
+}
+.yes{
+    display: block;
+}
+.no{
+    display: none;
+}
+.anil{
+    width: 100%;
+}

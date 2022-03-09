@@ -1,0 +1,9 @@
+.user{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: #fff;
+}
+.user span {
+    color: #fff;
+}
